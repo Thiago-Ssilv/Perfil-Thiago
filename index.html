@@ -1,29 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&amp;display=swap" rel="stylesheet">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>thiago santos</title>
+  <script type="text/javascript" src="./index.js" defer=""></script>
+  <link rel="stylesheet" href="./index.css">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>thiago santos</title>
-    <script type="text/javascript" src="./index.js" defer=""></script>
-    <link rel="stylesheet" href="./index.css">
+  <div class="profile-thumb"
+    style="background-image: url(https://scontent.fsdu16-1.fna.fbcdn.net/v/t39.30808-6/319905585_850438436273159_3310979075691681547_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHToT8R__ZFJ1Qb1itmUEhaASDx7W9n2loBIPHtb2faWgkJE1e6-xk1JRtR0mY4M00bLwEq94PVjWV3LE-Q56no&_nc_ohc=pJ4D7eVTiu4AX8L4V-x&_nc_ht=scontent.fsdu16-1.fna&oh=00_AfCEUtWiRLU051m6ilXcjRl3hs3MfO8uoF8fSx63LnihVA&oe=64C890A8)">
+  </div>
+
+<body>
+  <h1> Thiago Santos </h1>
+  <p>Web Developer</p>
+  <h5> <a href="https://www.linkedin.com/in/thiago-santos-0350a5239">
+      <i class="fa-brands fa-linkedin-in"></i>
+      <a href="https://github.com/Thiago-Ssilv">
+        <i class="fa-brands fa-github"></i>
+        <a href="https://instagram.com/developer_thiago?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
+          <i class="fa-brands fa-instagram"></i>
+          <a href="https://twitter.com/Thz_developer?t=V4ezWUcBY31mZFBG2qgP8g&s=09">
+            <i class="fa-brands fa-twitter"></i>
+            <a href="https://docs.google.com/document/d/1CABs--fiv8yhVQ7WwffVQY7f40C2Uw6O/edit">
+              <i class="fa-regular fa-address-card"></i></a> </h5>
   </head>
+  <h2>Full Name:<span>Thiago dos santos da silva</span> </h2>
+  <h3>Email:<span>thiagodeveloper_@outlook.com</span></h3>
+  <h4>Address:<span>maricá,Rio Janeiro, Brasil</span></h4>
+  <h6 class="middle-content-tiltle"> EDUCATION</h6>
+  <article class="col-1_4 init-hidden">
+    <h7 class="middle-content-tiltle"> TECHNOLOGIST</h7>
+    <p>system analysis and development- university pitagoras unopar anhanguera- 2020 -2022</p>
+    <p>The Information Systems course introduces our students to the universe of data flow that circulate through computer networks.
+       They learn to develop computer processes and systems.</p>
+  </article>
 
-  <body>
-    <h3> Grande entusiasta por tecnologia, estou em constate aprendizado na área de desenvolvimento.<br>
-      Procurando sempre melhorar, me desenvolver e estar atualizado, <br>tento ao máximo estar em constante contato em comunidades e obter opiniões.
-    </h3>
-    <h1> Thiago Developer </h1>
-    <p> Thiago dos santos da silva</p>
-    <a href="https://www.linkedin.com/in/thiago-santos-0350a5239" target="_blank">LINKEDIN</a>
-    <a href="https://github.com/Thiago-Ssilv" target="_blank">GITHUB</a>
-    <a href="https://docs.google.com/document/d/1CABs--fiv8yhVQ7WwffVQY7f40C2Uw6O/edit" class="btn-primary" target="_blank">CURRICULO</a>
 
-  </body>
+
+
+  <article class="col-1_4 init-hidden">
+    <p class="middle-content-tiltle">BACHELORS DEGREE </p>
+    <p>Information Systems-Estacio de Sa University- Studying</p>
+
+    <p> The Information Systems course introduces our students to the universe of data flow that circulate through
+      computer networks. They learn to develop computer processes and systems.</p>
+  </article>
+
+
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      console.log(entries)
+
+      Array.from(entries).forEach(entry => {
+        if (entry.intersectionRatio >= 1) {
+          entry.target.classList.add('init-hidden-off')
+        }
+      })
+      {
+        threshold: [0, .5, 1]
+      }
+
+    })
+
+    Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {
+      observer.observe(element)
+    })
+  </script>
+
+</body>
+<script src="https://kit.fontawesome.com/218c396f2e.js" crossorigin="anonymous"></script>
 
 </html>

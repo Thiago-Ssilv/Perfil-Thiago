@@ -1,50 +1,110 @@
-*{
-    margin:0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  body{
-    text-align: center;
-    padding-top: 150px;
-    font-size: 25px;
-    background-image: url(https://i.ibb.co/WD0RNLC/abc6f6d2d30ccea5e291dc0df49be1cc.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-  }
-  h3{
-    color: rgb(5, 0, 0);
-    opacity: 0.9;
-  }
-  h1{
-    padding-top: 50px;
-    font-size: 50px;
-    font-weight: 500;
-    padding-bottom: 60px;
-    color: black;
-  }
-  p{
-    padding-bottom: 60px;
-    color:black;
-    opacity: 0.9;
-  }
-  a{
-    padding: 12px 32px;
-    font-size: 20px;
-    line-height: 24px;
-    color: rgb(8, 3, 3);
-    opacity: 0.7;
-  }
-  
-  
-  
-  a:hover
-  {
-    text-decoration:none;
-  color:black;
-  background-color: #ffc700;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 25px;
+  background-color: rgb(14, 13, 13);
+  background-image: url();
+}
+
+div {
+  background-size: cover ! important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s ease
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 60px;
+  color: white;
+}
+
+p {
+  padding-bottom: 60px;
+  color: white;
+  opacity: 0.9;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+a {
+  padding: 12px 32px;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(250, 249, 249);
+  opacity: 0.7;
+}
+
+h2 {
+  color: rgb(157, 158, 158);
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+h2 span {
+  color: aliceblue;
+}
+
+h3 {color: rgb(157, 158, 158);
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+h3 span {
+  color: aliceblue;
+}
+
+h4 {
+  color: rgb(157, 158, 158);
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+h4 span {
+  color: aliceblue;
+}
+
+h6{
+  color: aliceblue;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+h7{
+  color: aliceblue;
+  font-size: 40px;
+}
+h8{
+  color: aliceblue;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+i {
+  font-size: 50px;
+}
+.init-hidden{
   opacity: 1;
-  }
+  transition: opacity 1s linear;
+}
+.init-hidden-off{
+  opacity: 1;
+}
