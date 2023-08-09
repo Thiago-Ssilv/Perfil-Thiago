@@ -5,15 +5,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+header{
+  background-color: rgb(14, 13, 13);
+}
 body {
   text-align: center;
-  padding-top: 150px;
   font-size: 25px;
-  background-color: rgb(14, 13, 13);
-  background-image: url();
+  background-color:white ;
 }
 
-div {
+img {
   background-size: cover ! important;
   background-position: center center;
   background-repeat: no-repeat;
@@ -22,7 +23,7 @@ div {
   overflow: hidden;
   width: 200px;
   height: 200px;
-  margin-top: 0px;
+  margin-top: 250px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -37,14 +38,6 @@ h1 {
   color: white;
 }
 
-p {
-  padding-bottom: 60px;
-  color: white;
-  opacity: 0.9;
-  margin-left: 350px;
-  margin-right: 350px;
-}
-
 a {
   padding: 12px 32px;
   font-size: 20px;
@@ -55,49 +48,65 @@ a {
 
 h2 {
   color: rgb(157, 158, 158);
-  font-size: 20px;
-  padding-top: 50px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
-h2 span {
-  color: aliceblue;
-}
 
 h3 {color: rgb(157, 158, 158);
   font-size: 20px;
   padding-top: 20px;
-}
-
-h3 span {
-  color: aliceblue;
+  padding-bottom: 90px;
 }
 
 h4 {
-  color: rgb(157, 158, 158);
+  color: rgb(10, 10, 10);
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 h4 span {
-  color: aliceblue;
+  color:rgb(109, 107, 107);
+}
+
+h5{
+  color: black;
+  font-size: 40px;
 }
 
 h6{
-  color: aliceblue;
   font-size: 40px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+color: black;
+padding-top: 100px;
 }
-h7{
-  color: aliceblue;
-  font-size: 40px;
-}
-h8{
-  color: aliceblue;
-  margin-bottom: 40px;
-  text-align: center;
+ p{
+  color: black;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+h7{
+  color: black;
+  font-size: 30px;
+  
+}
+
+main{
+  text-align:center;
+  margin-top: -180px;
+  margin-left: 350px;
+}
+
+main p {
+  font-size: 25px;
+  color: black;
+}
+
+aside{
+  text-align: left;
+}
 i {
   font-size: 50px;
 }
