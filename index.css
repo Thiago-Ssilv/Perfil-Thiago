@@ -92,6 +92,27 @@ h7{
   font-size: 30px;
   
 }
+footer h6,h7{
+  color:white;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h10 img {
+  background-size: cover ! important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+   border-color: black;
+  }
+  footer{
+    background-color: rgb(14, 13, 13);
+  }
+ 
+
 
 main{
   text-align:center;
